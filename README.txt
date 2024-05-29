@@ -1,17 +1,16 @@
 -------------------S7SourceToXmlParser-----------------------
 
-Mit diesem Werkzeug kann eine S7 DB-Quelle in eine XML-Datei konvertiert werden,
+This tool can be used to convert an S7 DB source into an XML file,
 
-um sie dann in ein .Net-Projekt einzulesen und um auf einzelene Adressen zuzugreifen.
-
-
-Die Quelldatei ist die Quelle eines Datenbausteins der SPS.
-
-Mehrere Bausteine in einer Datei werden nicht unterstuezt.
+in order to read it into a .Net project and to access individual addresses.
 
 
-Es empfiehlt sich die Quelle etwas aufzubereiten und z.B. unnoetige Kommentare zu entfernen.
+The source file is the source of a data block of the PLC.
 
+Multiple blocks in one file are not supported.
+
+
+It is advisable to edit the source a little and remove unnecessary comments, for example.
 
 
 
